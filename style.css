@@ -1,0 +1,136 @@
+body {
+  background-color: #e3e9fd;
+}
+.search {
+  margin: 1rem;
+  color: #042eec;
+  position: relative;
+}
+.search label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.hide {
+  display: none;
+}
+.searchResult {
+  position: absolute;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  width: 13%;
+  background-color: #1a1f36;
+  padding: 10px;
+  margin: 10px;
+  left: 4rem;
+}
+.searchResult div {
+  margin: 5px;
+  padding: 10px;
+  border-bottom: 1px solid rgb(148, 173, 255);
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #ccc;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #242c4d;
+  color: #e9eaee;
+  border-radius: 1rem;
+  border: none;
+}
+
+span {
+  font-size: 20px;
+  line-height: 28px;
+  color: #1a1f36;
+}
+.formContainer {
+  width: 30%;
+  max-width: 448px;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px,
+    rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+form div {
+  padding-bottom: 24px;
+}
+form label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+form input,
+#search {
+  font-size: 16px;
+  line-height: 28px;
+
+  min-height: 20px;
+  border: unset;
+  border-radius: 4px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+form button {
+  margin: 10px;
+  padding: 10px 30px;
+  border: 0;
+  background-color: rgb(84, 105, 212);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgb(84, 105, 212) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+form span {
+  color: white;
+  margin: 20px;
+}
+.success {
+  color: #48e502;
+}
+.fail {
+  color: #fb3626;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  overflow: none;
+  background-color: #242c4d;
+}
+.card div {
+  color: #e9eaee;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+a {
+  color: #6f89fc;
+  text-decoration: unset;
+}

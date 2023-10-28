@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forum</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search">
+        <label for="search">Search :</label>
+        <input type="text" name="search" id="search" placeholder="Search" />
+        <div class="searchResult hide"></div>
+      </div>
+      <div class="header">
+        <div class="formContainer">
+          <form action="submit" id="form">
+            <span>Enter Item</span>
+            <div>
+              <label for="name">Name Item</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div>
+              <label for="description">Description</label>
+              <input type="text" name="description" id="description" />
+            </div>
+            <div>
+              <label for="price">Price Item</label>
+              <input type="text" name="price" id="price" />
+            </div>
+
+            <a href="https://www.google.com/" class="link">GO To Google</a>
+            <button id="submit">Submit</button>
+            <div class="formResult"></div>
+          </form>
+        </div>
+      </div>
+      <div class="cardContainer"></div>
+    </div>
+
+    <script src="/index.js" type="module"></script>
+  </body>
+</html>
